@@ -1,17 +1,25 @@
-// Program which converts a given temperature from fahrenheit to celsius
+// Program which asks the user for temperature in Fahrenheit and converts it to Celsius
 
 #include <iostream>
 
-int main() 
-{
+int main() {
+
+  // Declaring variables
   
-  // Declaring variables, tempf to hold temperature in fahrenheit and tempc for temperature in celsius
-
-  double tempf = 44;
+  double tempf;
   double tempc;
+  
+  // Asking user for tempeerature in Fahrenheit  
+  
+  std::cout << "Enter the temperature in Fahrenheit: \n";
+  std::cin >> tempf;
 
-  tempc = (tempf - 32) / 1.8; 
+  // Converting temp from F to C
+  
+  tempc = (tempf - 32) / 1.8;
 
+  // Output of temp conversion from F to C
+  
   std::cout << "The temp is " << tempc << " degrees Celsius.\n";
-
+  
 }
