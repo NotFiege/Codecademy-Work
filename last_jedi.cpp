@@ -10,7 +10,7 @@ int main()
   
   last_jedi.push_back("kylo");
   last_jedi.push_back("rey");
-  last_jeci.push_back("luke");
+  last_jedi.push_back("luke");
   last_jedi.push_back("finn");
   
   std::cout << last_jedi[0] << " ";
